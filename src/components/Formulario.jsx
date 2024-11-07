@@ -33,7 +33,7 @@ const Formulario = () => {
     };
 
     return (
-        <div>
+        <div className='contenedor'>
             <h1 className='titulo'>Musica y Artista Favorito</h1>
             <form onSubmit={handleSubmit} className='form' >
                 <label>Cancion Favorita</label>
